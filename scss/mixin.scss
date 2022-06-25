@@ -1,0 +1,24 @@
+@mixin button($wid:80px, $ht:30px, $color:#fff, $fontSize:12px, $bgColor:aqua, $corner:15px) {
+    display: block;
+    width: $wid;
+    height: $ht;
+    color: $color;
+    font-size: $fontSize;
+    text-align: center;
+    line-height: $ht;
+    background: $bgColor;
+    border-radius: $corner;
+}
+
+$font:'Noto Sans KR'; 
+$contentFont:'arial'; 
+$fontBig:20px; 
+$fontMid:15px; 
+$fontSmall:12px; 
+
+ 
+$bgBodyColor:#efefef;
+$bgBoxColor:#fff; 
+$titleColor:#555;
+$contentColor:#eee;
+$linkColor:#fff; 

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCSS 연습</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="left">
+            <div class="item">
+                <h2>Sub Title</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, veniam.</p>
+                <a href="#">VIEW MORE</a>
+            </div>
+            <div class="item">
+                <h2>Sub Title</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, veniam.</p>
+                <a href="#">VIEW MORE</a>
+            </div>
+            <div class="item">
+                <h2>Sub Title</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, veniam.</p>
+                <a href="#">VIEW MORE</a>
+            </div>
+            <div class="item">
+                <h2>Sub Title</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, veniam.</p>
+                <a href="#">VIEW MORE</a>
+            </div>
+            <div class="item">
+                <h2>Sub Title</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, veniam.</p>
+                <a href="#">VIEW MORE</a>
+            </div>
+            <div class="item">
+                <h2>Sub Title</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, veniam.</p>
+                <a href="#">VIEW MORE</a>
+            </div>
+        </div>
+        <div class="right">
+
+            <h3>@import</h3>
+            <p>외부에서 가져온 sass파일은 모두 단일 css출력 파일로 병합</p>
+            <div class="box">
+                <p><span>@mixin</span> name(parameter){}</p>
+            </div>
+
+            <h3>@mixin</h3>
+            <p>그룹단위의 스타일을 변수처럼 적용할 수 있음</p>
+            <div class="box">
+                <p><span>@mixin</span> name(parameter){}</p>
+            </div>
+
+            <h3>@include</h3>
+            <p>@mixin을 선택자에 포함하는데 사용하는 지시문</p>
+            <div class="box">
+                <p><span>@include</span> mixin명;</p>
+            </div>
+          
+            <h3>@each 반복문</h3>
+            <p>key와 value가 한쌍을 이루는 구조, 맵을 반복 순환해서 사용</p>
+            <div class="box">
+                <p><span>@for</span> 변수 from (시작 숫자) to (끝 숫자){...}</p>
+            </div>
+
+            <h3>Map</h3>
+            <p>key와 value가 한쌍을 이루는 구조, 맵을 반복 순환해서 사용</p>
+            <div class="box">
+                <p><span>map-get(map, key)}</span></p>
+            </div>
+
+            <h3>@for 반복문</h3>
+            <p>list나 map형태의 변수를 극한으로 사용</p>
+            <div class="box">
+                <p><span>@each</span> $(변수) in (list 혹은 map) </p>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
